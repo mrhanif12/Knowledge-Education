@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Knowledge International Education Group</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card {
+      width: 320px;
+      padding: 25px;
+      background: #ffffff;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      border-radius: 8px;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 12px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background: #2ea44f;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .register {
+      margin-top: 15px;
+    }
+    footer {
+      position: fixed;
+      bottom: 10px;
+      text-align: center;
+      font-size: 12px;
+      color: #777;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>Login</h2>
+    <input type="text" placeholder="Username or Phone">
+    <input type="password" placeholder="Password">
+    <button>Login</button>
+
+    <div class="register">
+      <a href="#">Register Now</a>
+    </div>
+  </div>
+
+  <footer>
+    © 2026 Knowledge International Education Group
+  </footer>
+
+</body>
+</html>
